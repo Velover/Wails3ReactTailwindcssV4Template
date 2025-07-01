@@ -4,12 +4,12 @@ Congratulations on generating your Wails3 application! This README will guide yo
 
 ```
 #bun
-bunx degit https://github.com/Velover/Wails3ReactTsTailwindcssV4Template .
+bunx degit https://github.com/Velover/Wails3ReactTsTailwindcssV4Template#Appleaf .
 cd frontend && bun i && cd ..
 
 
 #npm
-npm degit https://github.com/Velover/Wails3ReactTsTailwindcssV4Template .
+npm degit https://github.com/Velover/Wails3ReactTsTailwindcssV4Template#Appleaf .
 cd frontend && npm i && cd ..
 ```
 
