@@ -2,14 +2,35 @@
 
 Congratulations on generating your Wails3 application! This README will guide you through the next steps to get your project up and running.
 
+### Normal
+
+**bun**
+
 ```
-#bun
 bunx degit https://github.com/Velover/Wails3ReactTsTailwindcssV4Template .
 cd frontend && bun i && cd ..
+```
 
+**npm**
 
-#npm
+```
 npm degit https://github.com/Velover/Wails3ReactTsTailwindcssV4Template .
+cd frontend && npm i && cd ..
+```
+
+### Appleaf
+
+**bun**
+
+```
+bunx degit https://github.com/Velover/Wails3ReactTsTailwindcssV4Template#Appleaf .
+cd frontend && bun i && cd ..
+```
+
+**npm**
+
+```
+npm degit https://github.com/Velover/Wails3ReactTsTailwindcssV4Template#Appleaf .
 cd frontend && npm i && cd ..
 ```
 
