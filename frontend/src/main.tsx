@@ -1,10 +1,7 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import App from "./App";
+import { AppLeaf } from "app-leaf";
 import "./main.css";
+import { UIModule } from "./Features/UI/UIModule.ts";
+import { StartMenuModule } from "./Features/StartMenu/StartMenuModule.ts";
 
-ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+AppLeaf.LoadModules([UIModule, StartMenuModule]);
+AppLeaf.Start();
