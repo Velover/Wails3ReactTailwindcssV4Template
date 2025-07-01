@@ -2,6 +2,17 @@
 
 Congratulations on generating your Wails3 application! This README will guide you through the next steps to get your project up and running.
 
+```
+#bun
+bunx degit https://github.com/Velover/Wails3ReactTsTailwindcssV4Template .
+cd frontend && bun i && cd ..
+
+
+#npm
+npm degit https://github.com/Velover/Wails3ReactTsTailwindcssV4Template .
+cd frontend && npm i && cd ..
+```
+
 ## Getting Started
 
 1. Navigate to your project directory in the terminal.
